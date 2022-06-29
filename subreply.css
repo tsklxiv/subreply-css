@@ -24,6 +24,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+* {
+  text-align: center;
+}
 ::-moz-placeholder {
   color: #1f1f1f;
 }
@@ -88,9 +91,6 @@ sup {
   line-height: 0;
 }
 input, select, textarea {
- /* -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;*/
   background-color: var(--whitesmoke);
   border-radius: var(--radius);
   border: 0 none;
