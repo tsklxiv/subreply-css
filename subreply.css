@@ -12,8 +12,8 @@ html {
   --regular: 14px;
   --radius: 6px;
   --d: 0.2s;
-  --white: white;
-  --whitesmoke: #f0f0f0;
+  --owhite: white;
+  --owhitesmoke: #f0f0f0;
   --redsmoke: #fff0f0;
   --gainsboro: #e0e0e0;
   --silver: #c0c0c0;
@@ -32,8 +32,8 @@ html {
 }
 @media (prefers-color-scheme: dark) {
   html {
-    --white: black;
-    --whitesmoke: #181818;
+    --owhite: black;
+    --owhitesmoke: #181818;
     --redsmoke: #281818;
     --gainsboro: #282828;
     --silver: #404040;
@@ -47,7 +47,7 @@ html {
   }
 }
 body {
-  background-color: var(--white);
+  background-color: var(--owhite);
   color: var(--black);
   cursor: default;
 }
@@ -85,7 +85,7 @@ sup {
   line-height: 0;
 }
 input, select, textarea {
-  background-color: var(--whitesmoke);
+  background-color: var(--owhitesmoke);
   border-radius: var(--radius);
   border: 0 none;
   color: var(--black);
@@ -178,7 +178,7 @@ a[href^='sms']::before {
 
 /* Nice blockquotes from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
-  background: var(--white);
+  background: var(--owhite);
   border-left: 10px solid var(--accent);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
