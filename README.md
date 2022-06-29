@@ -42,6 +42,7 @@ Changes:
 - Fixing the problem why the text in checkboxes are under the checkbox
 - Removing the hover in `input[type="submit"]` and `button` for good.
 - Remove `display: block;` for image to avoid awkward displaying
+- Update blockquote text color so that it automatically updates to black if the devices prefers black color scheme
 
 # Copyright and credits
 
