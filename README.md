@@ -4,15 +4,22 @@ The beautiful CSS style used by [Subreply](https://subreply.com/about). Heavily 
 
 # Why?
 
-Why not? Subreply has very nice style and colors.
+Why not? Subreply has very nice style and colors, and I thought it would be a good idea to turn it into an
+independent CSS style.
+
+# I want to see a demo first
+
+You can try this [demo](https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/test.html) of the
+test.html file included with Subreply CSS, or go to [my website](https://tsk.bearblog.dev/)
 
 # Features
 
 - Completely classless
 - Nice-looking
+- Automatic dark/light theme
 - Adding features missing in the original Subreply, such as radios and checkboxes
 - Custom blockquotes from [here](https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/) and custom code block from [here](https://adis.ca/entry/2011/pretty-code-block-in-css/)
-- Custom emojis before `mailto:`, `tel:`, `sms:`
+- Custom emojis for `mailto:`, `tel:`, `sms:`
 
 # Installation
 
