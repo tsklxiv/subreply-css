@@ -1,281 +1,231 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>sakura demo</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href='normalize.css' rel='stylesheet' type='text/css'>
-  <link href='subreply.css' id="sakura-css" rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
-  </script>
-  <style>
-    #toggle {
-      color: white;
-      background-color: black;
-      font-size: 18px;
-      position: fixed;
-      left: 0px;
-      top: 0px;
-    }
-    #top {
-      padding-top: 40px;
-    }
-    #toggleButton {
-      align: right;
-    }
-  </style>
-</head>
-<body>
-  <div id="toggle">
-    <span><button id="toggleButton" onclick="toggleSakura();">Toggle</button> Toggle sakura.css on/off</span><br>
-    <span id="switch"><button id="switchThemeButton" onclick="switchSakuraTheme();">Switch</button>Current theme: <span id="currentTheme">sakura (default)</span></span>
-  </div>
-  <div id="top">
-    <h1>Sakura demo (h1 header)</h1>
-    <p>This is an anchor tag/hyper link: <a href="https://github.com/oxalorg/sakura">sakura - Github Repository</a></p>
-    <p>Paragraphs look like this. Font size along with line height and maximum width are optimized for reading.</p>
+<html lang='en'>
 
-    <p><em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists look like:</p>
+<head>
+  <title>Subreply CSS Demo</title>
+
+  <!-- Copy paste this to your site to get the theme -->
+  <!-- Copy paste this to your site to get the theme -->
+  <!-- Copy paste this to your site to get the theme -->
+
+  <link rel='stylesheet' href='subreply.css'>
+
+  <!-- Copy paste end -->
+  <!-- Copy paste end -->
+  <!-- Copy paste end -->
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta name="description" content="A demo for Subreply CSS." />
+</head>
+
+<body>
+  <main>
+    <h1><a href="/">Subreply CSS demo</a></h1>
+    <p>
+      This is a demo of Subreply CSS. It was copied from <a href="https://www.cssbed.com/">CSS Bed</a>
+    </p>
+
+    <p>
+      <a href="https://git.sr.ht/~tsukii/subreply-css">Source code.</a>
+    </p>
+
+    <h2>How do I get this theme?</h2>
+    <p>
+      Paste into your website's &lt;head&gt; this snippet:
+      <code>
+        <link rel="stylesheet" href="https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/subreply.css"/>
+      </code>
+    </p>
+
+    <h2>Why use classless themes?</h2>
     <ul>
-      <li>this one</li>
-      <li>that one</li>
-      <li>the other one</li>
+      <li>Responsive</li>
+      <li>Good browser support</li>
+      <li>Beautiful</li>
+      <li>Small size (&lt; a few kb) - you don't waste bytes on every widget imaginable</li>
+      <li>No learning curve - use HTML as you would normally instead of going to the docs to learn which class does
+        what and having to fight the framework otherwise.</li>
+      <li><a href="https://news.ycombinator.com/item?id=19593866">Original Hacker News Thread</a></li>
     </ul>
 
-    <p><strong>Here's a block quote</strong>:</p>
-    <blockquote>
-      <p>Man surprised me most about humanity. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to die, and then dies having never really lived. -James J Lachard</p>
+    <h2>Is it responsive?</h2>
+    <p>
+      <strong>Heck yeah!</strong> It doesn't include any fancy styles so it's easily mobile responsive.
+      Just add the famous <a href='https://www.w3schools.com/css/css_rwd_viewport.asp'>responsive viewport tag</a> and
+      you'll be good to go!
+    </p>
+    <p>
+      In fact, try resizing this page. Everything flows super nicely as you'll see.
+    </p>
+
+    <h2>Element demos</h2>
+    <p>
+      This is supposed to be a demo page so we need more elements!
+    </p>
+
+    <h3>Form elements</h3>
+    <form onsubmit="return false;">
+      <label for='email'>Email</label>
+      <input type='email' name='email' id='email' placeholder='john.doe@gmail.com'>
+
+      <label for='id'>User id (read only)</label>
+      <input readonly name='id' id='id' value='04D6H89Z'>
+
+      <label for='disabled'>Random disabled input</label>
+      <input disabled name='disabled' id='disabled' placeholder='Because why not?'>
+
+      <label for='about'>About me</label>
+      <textarea name='about' id='about' placeholder='I am a textarea...'></textarea>
+
+      <label>Choose a radio:</label>
+      <div>
+        <input type='radio' id='john' name='drone' value='john' checked>
+        <label for='john'>John Doe</label>
+      </div>
+      <div>
+        <input type='radio' id='jane' name='drone' value='jane' checked>
+        <label for='jane'>Jane Doe</label>
+      </div>
+      <div>
+        <input type='radio' id='johnny' name='drone' value='johnny' checked>
+        <label for='johnny'>Johnny Doe</label>
+      </div>
+
+      <br>
+
+      <label>Checkboxes</label>
+      <div>
+        <input type='checkbox' name='unchecked' id='unchecked'>
+        <label for='unchecked'>Unchecked</label>
+        <input type='checkbox' name='remember' id='remember' checked>
+        <label for='remember'>Remember me</label>
+      </div>
+
+      <input type='submit'>
+    </form>
+
+    <h3>Code</h3>
+    <p>
+      Below is some code, you can copy it with <kbd>Ctrl-C</kbd>.
+      Did you know, <code>alert(1)</code> can show an alert in JavaScript!
+    </p>
+    <pre><code>// This logs a message to the console<br>console.log('Hello, world!')</code></pre>
+
+    <h3>Other</h3>
+    <p>Here's a horizontal rule and image because I don't know where else to put them.</p>
+    <img src='https://i.imgur.com/mOq7DbU.jpg' alt='Example kitten'>
+    <hr>
+
+        
+    <p>
+      This is a <button>button</button> or a more formal <button>OK</button>
+    </p>
+    <blockquote>This is a blockquote</blockquote>
+    <pre>
+      Good old preformatted text, no code at all
+      
+       |\_/|        ****************************    (\_/)
+      / @ @ \       *  "Purrrfectly pleasant"  *   (='.'=)
+     ( > º < )      *       Poppy Prinz        *   (")_(")
+      `>>x<<´       *   (pprinz@example.com)   *
+      /  O  \       ****************************
+     
+    </pre>
+
+    <p>And here's a nicely marked up table!</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Godzilla</td>
+          <td>2</td>
+          <td>$299.99</td>
+        </tr>
+        <tr>
+          <td>Mozilla</td>
+          <td>10</td>
+          <td>$100,000.00</td>
+        </tr>
+        <tr>
+          <td>Quesadilla</td>
+          <td>1</td>
+          <td>$2.22</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Typography</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum hendrerit velit, quis ullamcorper sem
+      congue ac. Quisque id magna rhoncus, sodales massa vel, vestibulum elit. Duis ornare accumsan egestas. Proin
+      maximus lacus interdum leo molestie convallis. Orci varius natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Ut iaculis risus eu felis feugiat, eu mollis neque elementum. Donec interdum, nisl id
+      dignissim iaculis, felis dui aliquet dui, non fermentum velit lectus ac quam. Class aptent taciti sociosqu ad
+      litora torquent per conubia nostra, per inceptos himenaeos.
+      <strong>This is strong,</strong> this is normal, <b>this is just bold,</b> <em>and this is emphasized!</em> And
+      heck, <a href='/'>here</a>'s a link.
+    </p>
+
+    <blockquote cite='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote'>
+      "The HTML blockquote Element (or HTML Block Quotation Element) indicates
+      that the enclosed text is an extended quotation. Usually, this is
+      rendered visually by indentation (see
+      <a
+        href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote#Usage_notes'>Notes</a>
+      for how to change it). A URL for the source of the quotation may be given using the
+      <code>cite</code> attribute, while a text representation of the source
+      can be given using the <code>&ltcite&gt</code> cite element."
+
+      <footer>
+        <cite>MDN, "The Block Quotation element"</cite>
+      </footer>
     </blockquote>
 
-    <h2 id="an-h2-header">An h2 header</h2>
-    <p><strong>Some code blocks</strong></p>
-    <pre><code>define foobar() {
-    print &quot;Welcome to flavor country!&quot;;
-}</code></pre>
-    <div class="sourceCode">
-      <pre class="sourceCode python"><code class="sourceCode python"><span class="im">import</span> time
-<span class="co"># Quick, count to ten!</span>
-<span class="cf">for</span> i <span class="op">in</span> <span class="bu">range</span>(<span class="dv">10</span>):
-    <span class="co"># (but not *too* quick)</span>
-    time.sleep(<span class="fl">0.5</span>)
-    <span class="bu">print</span> i</code></pre>
-  </div>
-
-  <h3 id="an-h3-header">An h3 header</h3>
-  <p>A nested list:</p>
-  <ol style="list-style-type: decimal">
-    <li>
-      <p>First, get these ingredients:</p>
-      <ul>
-        <li>carrots</li>
-        <li>celery</li>
-        <li>lentils</li>
-      </ul>
-    </li>
-    <li>
-      <p>Boil some water.</p>
-    </li>
-    <li>
-      <p>Dump everything in the pot and follow this algorithm:</p>
-      <pre><code>find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)</code></pre>
-      <p>Do not bump wooden spoon or it will fall.</p>
-    </li>
-  </ol>
-
-  <h1 id="header-level-1">Header level 1</h1>
-  <h2 id="header-level-2">Header level 2</h2>
-  <h3 id="header-level-3">Header level 3</h3>
-  <h4 id="header-level-4">Header level 4</h4>
-  <h5 id="header-level-5">Header level 5</h5>
-  <h6 id="header-level-6">Header level 6</h6>
-
-  <p>A horizontal line:</p>
-  <hr>
-
-  <p>Here's a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local doc</a>, and to a <a href="#an-h2-header">section heading in the current doc</a>. Here's a footnote <a href="#fn1" id="fnref1"><sup>1</sup></a>.</p>
-  <p>Tables can look like this:</p>
-
-  <table>
-    <caption>
-      Shoes, their sizes, and what they're made of
-    </caption>
-    <thead>
-      <tr >
-        <th align="left">size</th>
-        <th align="left">material</th>
-        <th align="left">color</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr >
-        <td align="left">9</td>
-        <td align="left">leather</td>
-        <td align="left">brown</td>
-      </tr>
-      <tr >
-        <td align="left">10</td>
-        <td align="left">hemp canvas</td>
-        <td align="left">natural</td>
-      </tr>
-      <tr >
-        <td align="left">11</td>
-        <td align="left">glass</td>
-        <td align="left">transparent</td>
-      </tr>
-    </tbody>
-  </table>
-  <p>Multi-line tables:</p>
-  <table style="width:46%;">
-    <colgroup>
-      <col width="13%">
-      <col width="31%">
-    </colgroup>
-    <thead>
-      <tr>
-        <th align="left">keyword</th>
-        <th align="left">text</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="left">red</td>
-        <td align="left">Sunsets, apples, and other red or reddish things.</td>
-      </tr>
-      <tr>
-        <td align="left">green</td>
-        <td align="left">Leaves, grass, frogs and other things it's not easy being.</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p>A horizontal rule follows.</p>
-  <hr>
-  <p>Images are responsive by default:</p>
-  <div>
-    <img alt="example image" src="sakura.png" title="An exemplary image">
-    <p>example image</p>
-  </div>
-
-  <hr>
-
-  <h1 id="form-elements">Form Elements</h1>
-  <form>
-    <div id="forms__input">
-      <h3>Input fields</h3>
-      <p><label for="input__text">Text Input</label> <input id="input__text" placeholder="Text Input" type="text"></p>
-      <p><label for="input__password">Password</label> <input id="input__password" placeholder="Type your Password" type="password"></p>
-      <p><label for="input__webaddress">Web Address</label> <input id="input__webaddress" placeholder="http://yoursite.com" type="url"></p>
-      <p><label for="input__emailaddress">Email Address</label> <input id="input__emailaddress" placeholder="name@email.com" type="email"></p>
-      <p><label for="input__phone">Phone Number</label> <input id="input__phone" placeholder="(999) 999-9999" type="tel"></p>
-      <p><label for="input__search">Search</label> <input id="input__search" placeholder="Enter Search Term" type="search"></p>
-      <p><label for="input__text2">Number Input</label> <input id="input__text2" placeholder="Enter a Number" type="number"></p>
-      <p><label for="input__text3">Error</label> <input id="input__text3" placeholder="Text Input" type="text"></p>
-      <p><label for="input__text4">Valid</label> <input id="input__text4" placeholder="Text Input" type="text"></p>
-    </div>
-    <p><a href="#top">[Top]</a></p>
-    <div id="forms__select">
-      <h3>Select menus</h3>
-      <p><label for="select">Select</label> <select id="select">
-          <optgroup label="Option Group">
-            <option>
-              Option One
-            </option>
-            <option>
-              Option Two
-            </option>
-            <option>
-              Option Three
-            </option>
-          </optgroup>
-      </select></p>
-    </div>
-    <p><a href="#top">[Top]</a></p>
-    <div id="forms__checkbox">
-      <h3>Checkboxes</h3>
-      <ul style="list-style:none;">
-        <li><label for="checkbox1"><input checked="checked" id="checkbox1" name="checkbox" type="checkbox"> Choice A</label></li>
-        <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
-        <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
-      </ul>
-    </div>
-    <p><a href="#top">[Top]</a></p>
-    <div id="forms__textareas">
-      <h3>Textareas</h3>
-      <p><label for="textarea">Textarea</label>
-        <textarea cols="48" id="textarea" placeholder="Enter your message here" rows="8"></textarea></p>
-    </div>
-    <p><a href="#top">[Top]</a></p>
-    <div id="forms__html5">
-      <div id="forms__action">
-        <h3>Action buttons</h3>
-        <p><input type="submit" value="input type=submit"> <input type="button" value="input type=button"> <input type="reset" value="input type=reset"> <input disabled type="submit" value="input disabled"></p>
-        <p><button type="submit">&lt;button type=submit&gt;</button> <button type="button">&lt;button type=button&gt;</button> <button type="reset">&lt;button type=reset&gt;</button> <button disabled type="button">&lt;button disabled&gt;</button></p>
-      </div>
-      <p><a href="#top">[Top]</a></p>
-    </div>
-  </form>
-  <div>
-    <hr>
+    <ul>
+      <li>Unordered list item 1</li>
+      <li>Unordered list item 2</li>
+      <li>Unordered list item 3</li>
+    </ul>
     <ol>
-      <li id="fn1"><p>Footnote text goes here.<a href="#fnref1">↩</a></p></li>
+      <li>Ordered list item 1</li>
+      <li>Ordered list item 2</li>
+      <li>Ordered list item 3</li>
     </ol>
-  </div>
-</div>
-<script>
-  var themes = [
-    {
-      name: "Sakura (default)",
-      href: "sakura.css",
-    },
-    {
-      name: "sakura-earthly",
-      href: "sakura-earthly.css",
-    },
-    {
-      name: "sakura-vader",
-      href: "sakura-vader.css",
-    },
-    {
-      name: "sakura-dark",
-      href: "sakura-dark.css"
-    },
-  ];
-  var current = 0;
-  var sakura = document.getElementById("sakura-css");
-  sakura.disabled = false;
-  function toggleSakura() {
-    if (sakura.disabled === true) {
-      sakura.disabled = false
-      switchTag.style.display = 'block';
-    } else {
-      sakura.disabled = true
-      switchTag.style.display = 'none';
-    }
-  }
 
-  var switchTag = document.getElementById("switch");
-  var currentThemeTag = document.getElementById("currentTheme");
-  function switchSakuraTheme() {
-    sakura.href = themes[(current + 1)% themes.length].href;
-    currentThemeTag.innerHTML = themes[(current + 1)% themes.length].name;
-    current += 1
-  }
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-63732371-1', 'auto');
-ga('send', 'pageview');
-</script>
+    <p>
+      Links with <code>mailto:</code>, <code>tel:</code>, <code>sms:</code> addresses might be styled...
+    </p>
+    <address>
+      <a href='mailto:john.doe@example.com'>john.doe@example.com</a><br />
+      <a href='tel:778-330-2389'>778-330-2389</a><br />
+      <a href='sms:666-666-6666'>666-666-6666</a><br />
+    </address>
+
+    <h1>Heading 1</h1>
+    <p>A paragraph <code>&lt;p&gt;</code> of lorem ipsum after the heading. Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+    <h2>Heading 2</h2>
+    <p>A paragraph <code>&lt;p&gt;</code> of lorem ipsum after the heading. Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+    <h3>Heading 3</h3>
+    <p>A paragraph <code>&lt;p&gt;</code> of lorem ipsum after the heading. Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+    <h4>Heading 4</h4>
+    <p>A paragraph <code>&lt;p&gt;</code> of lorem ipsum after the heading. Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+    <h5>Heading 5</h5>
+    <p>A paragraph <code>&lt;p&gt;</code> of lorem ipsum after the heading. Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+    <h6>Heading 6</h6>
+    <p>A paragraph <code>&lt;p&gt;</code> of lorem ipsum after the heading. Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+  </main>
 </body>
-</html>
 
+</html>
