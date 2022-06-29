@@ -57,7 +57,8 @@ Changes:
 
 # Copyright and credits
 
-Copyright 2014(?)-Present Lucian Marin (https://github.com/lucianmarin)
-Straight up ripped from Subreply and heavily modified by Dang Hoang Tuan (https://tsk.bearblog.dev)
+Copyright 2022-present [Dang Hoang Tuan](https://tsk.bearblog.dev).
+
+Original code by [Lucian Marin](https://github.com/lucianmarin).
 
 This CSS style is under the MIT license.
