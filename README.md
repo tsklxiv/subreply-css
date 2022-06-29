@@ -21,9 +21,6 @@ Copy the file `subreply.css` to your project, and BAM!, you are done!
 
 Very much.
 
-# Todos
-- [x] Get radios and checkboxes to work
-
 # Changelog
 
 ## v0.1
