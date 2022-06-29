@@ -9,7 +9,7 @@ independent CSS style.
 
 # I want to see a demo first
 
-You can try this [demo](https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/test.html) of the
+You can try this [demo](https://srht.githack.com/~tsukii/subreply-css/blob/main/test.html) of the
 test.html file included with Subreply CSS, or go to [my website](https://tsk.bearblog.dev/)
 
 # Features
@@ -26,7 +26,7 @@ test.html file included with Subreply CSS, or go to [my website](https://tsk.bea
 Paste into your website's &lt;head&gt; this snippet:
 
 ```css
-<link rel="stylesheet" href="https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/subreply.css"/>
+<link rel="stylesheet" href="https://git.sr.ht/~tsukii/subreply-css/blob/main/subreply.css"/>
 ```
 
 # Is This Ready To Use?
