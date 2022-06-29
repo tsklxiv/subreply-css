@@ -61,7 +61,7 @@ b, i, u {
   font-weight: normal;
   text-decoration: none;
 }
-form, input, img, label {
+form, input, label {
   display: block;
 }
 body, label, input, select, textarea {
