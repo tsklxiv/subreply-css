@@ -42,7 +42,7 @@ Changes:
 - Fixing the problem why the text in checkboxes are under the checkbox
 - Removing the hover in `input[type="submit"]` and `button` for good.
 - Remove `display: block;` for image to avoid awkward displaying
-- Blockquotes now use gray as background color by default
+- Blockquotes now use background colors as the opposite colors of the text colors for readability
 
 # Copyright and credits
 

@@ -232,7 +232,7 @@ a[href^='sms']::before {
 
 /* Nice blockquotes from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
-  background: var(--gray);
+  background: var(--white);
   border-left: 10px solid var(--accent);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
