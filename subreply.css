@@ -52,13 +52,10 @@ body {
   cursor: default;
 }
 a {
-	background-color: var(--white);
-	border-radius: var(--radius);
-	height: 20px;
-	padding: 5px 0;
   color: var(--accent);
+	padding: 5px 0;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color var(--d);
 }
 b, i, u {
