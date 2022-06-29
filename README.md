@@ -18,7 +18,7 @@ Why not? Subreply has very nice style and colors.
 
 Copy the file `subreply.css` to your project, and BAM!, you are done!
 
-# Is This Ready For use?
+# Is This Ready To Use?
 
 Very much.
 
