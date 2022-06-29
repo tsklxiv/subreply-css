@@ -26,7 +26,7 @@ test.html file included with Subreply CSS, or go to [my website](https://tsk.bea
 Paste into your website's &lt;head&gt; this snippet:
 
 ```css
-<link rel="stylesheet" href="https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/subreply.css">
+<link rel="stylesheet" href="https://srht.githack.com/~tsukii/subreply-css/blob/main/subreply.css">
 ```
 
 You can also use the minified version in production mode:
