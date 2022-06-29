@@ -10,7 +10,7 @@ independent CSS style.
 # I want to see a demo first
 
 You can try this [demo](https://srht.githack.com/~tsukii/subreply-css/blob/main/test.html) of the
-test.html file included with Subreply CSS, or go to [my website](https://tsk.bearblog.dev/)
+test.html file included with Subreply CSS, or go to [my website](https://tsk.bearblog.dev/).
 
 # Features
 
