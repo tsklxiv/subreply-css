@@ -10,7 +10,7 @@ Why not? Subreply has very nice style and colors.
 
 - Completely classless
 - Nice-looking
-- Adding features missing in the original Subreply, such as radios and checkboxes
+- Adding features missing in the original Subreply, such as radios and checkboxes, custom blockquotes
 - Custom emojis before `mailto:`, `tel:`, `sms:`
 
 # Installation
