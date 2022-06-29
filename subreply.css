@@ -55,7 +55,6 @@ a {
 	background-color: var(--white);
 	border-radius: var(--radius);
 	color: var(--black);
-	display: block;
 	height: 20px;
 	padding: 5px 0;
 	transition: background-color var(--d);
