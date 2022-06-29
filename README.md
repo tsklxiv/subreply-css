@@ -40,6 +40,7 @@ Changes:
 - Getting checkboxes to work
 - Fixing the problem why the text in checkboxes are under the checkbox
 - Removing the hover in `input[type="submit"]` and `button` for good.
+- Remove `display: block;` for image to avoid awkward displaying
 
 # Copyright and credits
 
