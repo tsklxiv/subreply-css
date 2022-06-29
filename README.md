@@ -23,7 +23,11 @@ test.html file included with Subreply CSS, or go to [my website](https://tsk.bea
 
 # Installation
 
-Copy the file `subreply.css` to your project, and BAM!, you are done!
+Paste into your website's &lt;head&gt; this snippet:
+
+```css
+<link rel="stylesheet" href="https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/subreply.css"/>
+```
 
 # Is This Ready To Use?
 
