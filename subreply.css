@@ -21,6 +21,7 @@ html {
   --black: black;
   --accent: #4060e0;
   --orange: #FF4000;
+  --blockquote-color: white;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -39,6 +40,7 @@ html {
     --silver: #404040;
     --gray: #808080;
     --black: white;
+    --blockquote-color: white;
     --accent: #6080e0;
   }
   ::-moz-placeholder {
@@ -247,6 +249,7 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+  color: var(--blockquote-color);
 }
 
 /* Get radios and checkboxes to work */
