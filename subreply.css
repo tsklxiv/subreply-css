@@ -67,8 +67,7 @@ form, input, label {
   display: block;
 }
 body, label, input, select, textarea {
-  font-family: "Route159Regular", sans-serif;
-  font-weight: var(--regular);
+  font-family: "Route 159", sans-serif;
   font-size: var(--regular);
   line-height: 20px;
 }
