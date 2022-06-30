@@ -4,6 +4,7 @@
  * Font used: Route 159
  * https://dotcolon.net/font/route159/
  */
+@import url('https://rsms.me/inter/inter.css');
 
 html {
   --super: 8px;
@@ -142,23 +143,6 @@ table a {
 }
 table a:hover {
   color: var(--gray);
-}
-
-/* Using fonts from Subreply itself is a more viable solution 
- * that I never thought, until now.
- */
-@font-face {
-  font-family: "Route 159";
-  font-style: normal;
-  font-weight: normal;
-  src: url(//subreply.com/static/r159regular.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: "Route 159";
-  font-style: normal;
-  font-weight: bold;
-  src: url(//subreply.com/static/r159bold.woff2) format("woff2");
 }
 
 /* mailto:/sms:/tel: links emojis 
