@@ -4,9 +4,8 @@
      alt="Subreply logo, but inverted" width="192" height="192">
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-water.svg)](https://forthebadge.com)
+![GitHub Repo stars](https://img.shields.io/github/stars/HoangTuan110/subreply-css?style=flat-square)
+![GitHub](https://img.shields.io/github/license/HoangTuan110/subreply-css?style=flat-square)
 
 Subreply CSS is a simple, yet modern and beautiful classless CSS style. It's
 suitable for both personal blogs and as a bootstrap. It was influenced by the
