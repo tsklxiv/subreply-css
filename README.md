@@ -1,9 +1,7 @@
 # Subreply CSS
 
-<!-- Logo here
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
--->
+<img src="./logo.png" align="right"
+     alt="Subreply logo, but inverted" width="192" height="192">
 
 Subreply CSS is a simple, yet modern and beautiful classless CSS style. It's
 suitable for both personal blogs and as a bootstrap. It was influenced by the
