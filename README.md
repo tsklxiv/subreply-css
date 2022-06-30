@@ -1,6 +1,6 @@
 # Subreply CSS
 
-The beautiful CSS style used by [Subreply](https://subreply.com/about). Heavily modified for classless usage.
+A simple, yet modern and beautiful CSS style. Influenced by [Subreply](https://subreply.com/about).
 
 # Why?
 
