@@ -29,13 +29,13 @@ You can download the file `subreply.css` or `subreply.min.css`, or paste into yo
 this snippet:
 
 ```css
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HoangTuan110/subreply-css/subreply.css">
+<link rel="stylesheet" href="https://cdn.statically.io/gh/HoangTuan110/subreply-css/main/subreply.css">
 ```
 
 You can also use the minified version in production mode:
 
 ```css
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HoangTuan110/subreply-css/subreply.min.css">
+<link rel="stylesheet" href="https://cdn.statically.io/gh/HoangTuan110/subreply-css/main/subreply.min.css">
 ```
 
 # Screenshots
