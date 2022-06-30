@@ -15,21 +15,22 @@ clean social media [Subreply](https://subreply.com/about). (Hence the name)
 * Beautiful font ([Route 159](https://dotcolon.net/font/route159/))
 * Fixing missing features from the original Subreply, such as **radios and checkboxes**
 
-Wanna try it first? Visit the [demo](https://srht.githack.com/~tsukii/subreply-css/blob/main/test.html)
+Wanna try it first? Visit the [demo](https://raw.githack.com/HoangTuan110/subreply-css/main/test.html)
 or go to [my website](https://tsk.bearblog.dev), which uses Subreply CSS.
 
 # Installation
 
-Paste into your website's &lt;head&gt; this snippet:
+You can download the file `subreply.css` or `subreply.min.css`, or paste into your website's &lt;head&gt;
+this snippet:
 
 ```css
-<link rel="stylesheet" href="https://srht.githack.com/~tsukii/subreply-css/blob/main/subreply.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HoangTuan110/subreply-css/subreply.css">
 ```
 
 You can also use the minified version in production mode:
 
 ```css
-<link rel="stylesheet" href="https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/subreply.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HoangTuan110/subreply-css/subreply.min.css">
 ```
 
 # Changelog
