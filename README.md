@@ -56,6 +56,11 @@ Changes:
 - Blockquotes now use background colors as the opposite colors of the text colors for readability
 - Add minified version of the style
 
+## v0.3 (30/06/2022)
+
+- Removing `line-height` in `body, input, label, select, textarea` tag so that text don't override each other
+- Fixing the width of `input` so that they aren't comically long
+
 # Copyright and credits
 
 Copyright 2022-present [Dang Hoang Tuan](https://tsk.bearblog.dev).
