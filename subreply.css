@@ -97,7 +97,7 @@ input:focus, select:focus, textarea:focus {
 input[type=email], input[type=password], input[type=text], input[type=url], select, textarea {
   overflow:hidden;
   resize:none;
-  width:calc(100% - 15px) 
+  width:calc(50% - 15px) 
 }
 input[type=submit] {
   cursor:pointer;
