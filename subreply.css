@@ -1,8 +1,8 @@
 /* Subreply CSS
  * Copyright 2022 Dang Hoang Tuan (Tsuki)
  * This style is under the MIT license
- * Font used: Route 159
- * https://dotcolon.net/font/route159/
+ * Font used: Inter
+ * https://rsms.me/inter/
  */
 @import url('https://rsms.me/inter/inter.css');
 
@@ -65,7 +65,7 @@ form, input, label {
   display: block;
 }
 body, label, input, select, textarea {
-  font-family: "Route 159", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: var(--regular);
   line-height: 20px;
 }
