@@ -8,7 +8,7 @@ suitable for both personal blogs and as a bootstrap. It was influenced by the
 clean social media [Subreply](https://subreply.com/about). (Hence the name)
 
 * **Lightweight** - Only weights 4 kB! (original version)
-* **Mobile responsive**
+* **Mobile responsive** and **image responsive**
 * **Automatic dark/light theme** (based on OS preferences)
 * **Custom emojis** before `mailto:`, `sms:`, and `tel:` links
 * **Custom blockquotes** and **code blocks**
@@ -60,6 +60,7 @@ Changes:
 
 - Removing `line-height` in `body, input, label, select, textarea` tag so that text don't override each other
 - Fixing the width of `input` so that they aren't comically long
+- Making images responsive (Stolen from [Sakura](https://oxal.org/projects/sakura/))
 
 # Copyright and credits
 
