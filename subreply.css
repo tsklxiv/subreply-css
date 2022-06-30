@@ -68,7 +68,6 @@ form, input, label {
 body, input, label, select, textarea {
   font-family:'Route 159', sans-serif;
   font-size:var(--regular);
-  line-height:20px 
 }
 label {
   color:var(--black);
