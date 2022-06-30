@@ -1,25 +1,24 @@
 # Subreply CSS
 
-A simple, yet modern and beautiful CSS style. Influenced by [Subreply](https://subreply.com/about).
+<!-- Logo here
+<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+-->
 
-# Why?
+Subreply CSS is a simple, yet modern and beautiful classless CSS style. It's
+suitable for both personal blogs and as a bootstrap. It was influenced by the
+clean social media [Subreply](https://subreply.com/about). (Hence the name)
 
-Why not? Subreply has very nice style and colors, and I thought it would be a good idea to turn it into an
-independent CSS style.
+* **Lightweight** - Only weights 4 kB! (original version)
+* **Mobile responsive**
+* **Automatic dark/light theme** (based on OS preferences)
+* **Custom emojis** before `mailto:`, `sms:`, and `tel:` links
+* **Custom blockquotes** and **code blocks**
+* Beautiful font ([Route 159](https://dotcolon.net/font/route159/))
+* Fixing missing features from the original Subreply, such as **radios and checkboxes**
 
-# I want to see a demo first
-
-You can try this [demo](https://srht.githack.com/~tsukii/subreply-css/blob/main/test.html) of the
-test.html file included with Subreply CSS, or go to [my website](https://tsk.bearblog.dev/).
-
-# Features
-
-- Completely classless
-- Nice-looking
-- Automatic dark/light theme
-- Adding features missing in the original Subreply, such as radios and checkboxes
-- Custom blockquotes from [here](https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/) and custom code block from [here](https://adis.ca/entry/2011/pretty-code-block-in-css/)
-- Custom emojis for `mailto:`, `tel:`, `sms:`
+Wanna try it first? Visit the [demo](https://srht.githack.com/~tsukii/subreply-css/blob/main/test.html)
+or go to [my website](https://tsk.bearblog.dev), which uses Subreply CSS.
 
 # Installation
 
@@ -35,17 +34,13 @@ You can also use the minified version in production mode:
 <link rel="stylesheet" href="https://srhtcdn.githack.com/~tsukii/subreply-css/blob/main/subreply.min.css">
 ```
 
-# Is This Ready To Use?
-
-Very much.
-
 # Changelog
 
 ## v0.1
 
 Initial release
 
-## v0.2
+## v0.2 (29/06/2022)
 
 Changes:
 
