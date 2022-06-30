@@ -5,6 +5,9 @@
  * https://dotcolon.net/font/route159/
  */
 
+/* Import file from Font Library instead of Catbox for a more long-term solution */
+@import url(https://fontlibrary.org//face/route-159);
+
 html {
   --super: 8px;
   --tiny: 11px;
@@ -64,7 +67,7 @@ form, input, label {
   display: block;
 }
 body, label, input, select, textarea {
-  font-family: "Route 159", sans-serif;
+  font-family: "Route159Regular", sans-serif;
   font-size: var(--regular);
   line-height: 20px;
 }
@@ -142,20 +145,6 @@ table a {
 }
 table a:hover {
   color: var(--gray);
-}
-
-/* Fonts */
-@font-face {
-  font-family: "Route 159";
-  font-style: normal;
-  font-weight: normal;
-  src: url(https://files.catbox.moe/gt6un3.woff) format("woff");
-}
-@font-face {
-  font-family: "Route 159";
-  font-style: normal;
-  font-weight: bold;
-  src: url(https://files.catbox.moe/outwck.woff) format("woff");
 }
 
 /* mailto:/sms:/tel: links emojis 
