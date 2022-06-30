@@ -66,7 +66,7 @@ form, input, label {
   display: block;
 }
 body, label, input, select, textarea {
-  font-family: "Finlandica", sans-serif;
+  font-family: 'Finlandica', sans-serif;
   font-size: var(--regular);
   line-height: 20px;
 }
