@@ -151,14 +151,14 @@ table a:hover {
   font-family: "Route 159";
   font-style: normal;
   font-weight: normal;
-  src: url(https://subreply.com/static/r159regular.woff2) format("woff2");
+  src: url(//subreply.com/static/r159regular.woff2) format("woff2");
 }
 
 @font-face {
   font-family: "Route 159";
   font-style: normal;
   font-weight: bold;
-  src: url(https://subreply.com/static/r159bold.woff2) format("woff2");
+  src: url(//subreply.com/static/r159bold.woff2) format("woff2");
 }
 
 /* mailto:/sms:/tel: links emojis 
