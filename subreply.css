@@ -16,11 +16,9 @@ html {
   --owhitesmoke: #f0f0f0;
   --redsmoke: #fff0f0;
   --gainsboro: #e0e0e0;
-  --silver: #c0c0c0;
   --gray: #808080;
   --black: black;
   --accent: #4060e0;
-  --orange: #FF4000;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -36,7 +34,6 @@ html {
     --owhitesmoke: #181818;
     --redsmoke: #281818;
     --gainsboro: #282828;
-    --silver: #404040;
     --gray: #808080;
     --black: white;
     --blockquote-color: white;
