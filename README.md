@@ -73,6 +73,11 @@ Changes:
 - Fixing the width of `input` so that they aren't comically long
 - Making images responsive (Stolen from [Sakura](https://oxal.org/projects/sakura/))
 
+## v0.4 (01/07/2022)
+
+- 41d1a3f - (HEAD -> main) Reduce the size of images so that they doesn't look too big, but are still easily visible
+- 39090f2 - Making the --regular size look bigger so it doesn't look so tiny on desktop
+
 # Copyright and credits
 
 Copyright 2022-present [Dang Hoang Tuan](https://tsk.bearblog.dev).
