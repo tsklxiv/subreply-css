@@ -3,7 +3,6 @@
 <img src="https://files.catbox.moe/r4sc6l.png" align="right"
      alt="Subreply logo, but inverted" width="192" height="192">
 
-<a href="https://www.producthunt.com/posts/subreply-css?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-subreply&#0045;css" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=351227&theme=light" alt="Subreply&#0032;CSS - A&#0032;simple&#0044;&#0032;yet&#0032;modern&#0032;and&#0032;beautiful&#0032;classless&#0032;CSS&#0032;style | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/HoangTuan110/subreply-css?style=flat-square)
