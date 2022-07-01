@@ -75,8 +75,8 @@ Changes:
 
 ## v0.4 (01/07/2022)
 
-- 41d1a3f - (HEAD -> main) Reduce the size of images so that they doesn't look too big, but are still easily visible
-- 39090f2 - Making the --regular size look bigger so it doesn't look so tiny on desktop
+- Reduce the size of images so that they doesn't look too big, but are still easily visible
+- Making the --regular size look bigger so it doesn't look so tiny on desktop
 
 # Copyright and credits
 
