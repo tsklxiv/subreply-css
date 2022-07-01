@@ -23,6 +23,11 @@ clean social media [Subreply](https://subreply.com/about). (Hence the name)
 Wanna try it first? Visit the [demo](https://raw.githack.com/HoangTuan110/subreply-css/main/test.html)
 or go to [my website](https://tsk.bearblog.dev), which uses Subreply CSS.
 
+# Screenshots
+
+![My blog with Subreply CSS](./my_blog_with_subreply_css.png)
+![Subreply CSS demo](./subreply_css_demo.png)
+
 # Installation
 
 You can download the file `subreply.css` or `subreply.min.css`, or paste into your website's &lt;head&gt;
@@ -37,10 +42,6 @@ You can also use the minified version in production mode:
 ```css
 <link rel="stylesheet" href="https://cdn.statically.io/gh/HoangTuan110/subreply-css/main/subreply.min.css">
 ```
-
-# Screenshots
-
-![My blog with Subreply CSS](./my_blog_with_subreply_css.png)
 
 # Changelog
 
