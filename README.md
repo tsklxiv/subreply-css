@@ -77,6 +77,10 @@ Changes:
 - Reduce the size of images so that they doesn't look too big, but are still easily visible
 - Making the --regular size look bigger so it doesn't look so tiny on desktop
 
+# v0.4.1 (04/07/2022)
+
+- Fix issue [#2](https://github.com/HoangTuan110/subreply-css/issues/2) and [#3](https://github.com/HoangTuan110/subreply-css/issues/3)
+
 # Copyright and credits
 
 Copyright 2022-present [Dang Hoang Tuan](https://tsk.bearblog.dev).
