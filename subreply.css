@@ -11,13 +11,13 @@ html {
   --regular:17px;
   --radius:6px;
   --d:0.2s;
-  --owhite:#fff;
-  --owhitesmoke:#f0f0f0;
+  --primary-bg:#fff;
+  --whitesmoke:#f0f0f0;
   --redsmoke:#fff0f0;
   --gainsboro:#e0e0e0;
   --silver:silver;
   --gray:grey;
-  --black:#000;
+  --primary-fg:#000;
   --accent:#4060e0;
   --orange:#ff4000;
   -ms-text-size-adjust:100%;
@@ -31,13 +31,13 @@ html {
 }
 @media (prefers-color-scheme:dark) {
   html {
-    --owhite:#000;
-    --owhitesmoke:#181818;
+    --primary-bg:#000;
+    --whitesmoke:#181818;
     --redsmoke:#281818;
     --gainsboro:#282828;
     --silver:#404040;
     --gray:grey;
-    --black:#fff;
+    --primary-fg:#fff;
     --blockquote-color:#fff;
     --accent:#6080e0 
   }
@@ -46,8 +46,8 @@ html {
   }
 }
 body {
-  background-color:var(--owhite);
-  color:var(--black);
+  background-color:var(--primary-bg);
+  color:var(--primary-fg);
   cursor:default 
 }
 a {
@@ -70,7 +70,7 @@ body, input, label, select, textarea {
   font-size:var(--regular);
 }
 label {
-  color:var(--black);
+  color:var(--primary-fg);
   font-size:var(--small);
   overflow:hidden;
   text-overflow:ellipsis;
@@ -83,10 +83,10 @@ sup {
   line-height:0 
 }
 input, select, textarea {
-  background-color:var(--owhitesmoke);
+  background-color:var(--primary-bgsmoke);
   border:0;
   border-radius:var(--radius);
-  color:var(--black);
+  color:var(--primary-fg);
   display:initial;
   font-weight:400 
 }
@@ -116,14 +116,14 @@ svg {
 }
 svg path {
   fill:none;
-  stroke:var(--black) 
+  stroke:var(--primary-fg) 
 }
 table {
   margin:10px 0;
   width:100% 
 }
 table th {
-  color:var(--black);
+  color:var(--primary-fg);
   font-size:var(--small);
   font-weight:400;
   padding-bottom:2px 
@@ -163,7 +163,7 @@ a[href^=sms]:before {
   content:"💬 " 
 }
 blockquote {
-  background:var(--owhite);
+  background:var(--primary-bg);
   border-left:10px solid var(--accent);
   margin:1.5em 10px;
   padding:.5em 10px;
