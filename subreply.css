@@ -83,7 +83,7 @@ sup {
   line-height:0 
 }
 input, select, textarea {
-  background-color:var(--primary-bgsmoke);
+  background-color:var(--whitesmoke);
   border:0;
   border-radius:var(--radius);
   color:var(--primary-fg);
