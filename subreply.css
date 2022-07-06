@@ -11,13 +11,10 @@ html {
   --d:0.2s;
   --primary-bg:#fff;
   --whitesmoke:#f0f0f0;
-  --redsmoke:#fff0f0;
   --gainsboro:#e0e0e0;
-  --silver:silver;
   --gray:grey;
   --primary-fg:#000;
   --accent:#4060e0;
-  --orange:#ff4000;
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100% 
 }
@@ -31,9 +28,7 @@ html {
   html {
     --primary-bg:#000;
     --whitesmoke:#181818;
-    --redsmoke:#281818;
     --gainsboro:#282828;
-    --silver:#404040;
     --gray:grey;
     --primary-fg:#fff;
     --blockquote-color:#fff;
