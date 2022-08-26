@@ -12,8 +12,7 @@ html {
   --gray:grey;
   --primary-fg:#000;
   --accent:#4060e0;
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100% 
+  text-size-adjust:100%;
 }
 ::-moz-placeholder {
   color:#1f1f1f 
