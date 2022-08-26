@@ -13,6 +13,7 @@ html {
   --primary-fg:#000;
   --accent:#4060e0;
   text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
 }
 ::-moz-placeholder {
   color:#1f1f1f 
@@ -181,9 +182,9 @@ pre {
   margin:auto 40px;
   padding:1em;
   white-space:pre;
-  white-space:pre-wrap;
   white-space:-moz-pre-wrap;
   white-space:-o-pre-wrap;
+  white-space:pre-wrap;
   width:auto 
 }
 code, pre {
